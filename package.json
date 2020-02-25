@@ -4,7 +4,7 @@
   "description": "embrace web app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Hello, Embrace\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/SeanEmbrace/Embrace-App/issues"
   },
-  "homepage": "https://github.com/SeanEmbrace/Embrace-App#readme"
+  "homepage": "https://github.com/SeanEmbrace/Embrace-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

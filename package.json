@@ -4,7 +4,8 @@
   "description": "embrace web app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Hello, Embrace\" && exit 1"
+    "test": "echo \"Hello, Embrace\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,5 @@
   "homepage": "https://github.com/SeanEmbrace/Embrace-App#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "scripts": {
-    "start": "node app.js"
   }
 }
